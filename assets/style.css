@@ -1,0 +1,366 @@
+
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+/* jumbo css */
+
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    color: black;
+    background-color: #79abd2;
+    margin-top: 10px;
+    max-height: 235px;
+    border-radius: 1.25rem;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 200;
+    width: 400px;
+    margin-left: 25px;
+}
+
+
+#userName {
+    background-color: aliceblue;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-left: 45px;
+    width: 190px;
+    height: 190px;
+    display: flex;
+    z-index: 0;
+    margin-left: -85px;
+    border-radius: 1.25rem;
+}
+#farmBio {
+    background-color: aliceblue;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 1.25rem;
+    width: auto;
+    height: 205px;
+    max-width: 750px;
+}
+
+
+.card-text{
+    font: 16px;
+}
+
+.card-img-top {
+    margin-top: 45px;
+    width: 150px;
+    height: 150px;
+    margin-left: -170px;
+    z-index: 1;
+    background-color: grey;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 1.25rem;
+}
+
+#aboutBtn {
+    width: 100px;
+    margin-left: 5px;
+}
+
+.col-md-6 {
+    width: auto;
+    display: flex;
+}
+
+
+#storyList th {
+    text-align: left;
+}
+
+    
+/* The navigation bar */
+    .sidenav {
+        height: 100%;
+        width: 160px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+    
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+    }
+    
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    
+    .main {
+        margin-left: 160px; /* Same as the width of the sidenav */
+        font-size: 28px; /* Increased text to enable scrolling */
+        padding: 0px 10px;
+    }
+    
+    @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+    }
+   
+
+/* ------------------------------------- */
+/* index-css */
+#topTen{
+
+}
+
+/* style the login container */
+    #authForm {
+        position: relative;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px 0 30px 0;
+        margin-bottom: 100px;
+    }
+
+    /* style inputs and link buttons */
+
+    input,
+    .btn {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        margin: 5px 0;
+        opacity: 0.85;
+        display: inline-block;
+        font-size: 17px;
+        line-height: 20px;
+        text-decoration: none;
+        /* remove underline from anchors */
+    }
+
+    input:hover,
+    .btn:hover {
+        opacity: 1;
+    }
+
+    /* style the submit button */
+
+    input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+    /* Two-column layout */
+
+    .col {
+        float: left;
+        width: 50%;
+        margin: auto;
+        padding: 0 50px;
+        margin-top: 6px;
+    }
+
+    /* Clear floats after the columns */
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* vertical line */
+
+    .vl {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        border: 2px solid #ddd;
+        height: 175px;
+    }
+
+    /* text inside the vertical line */
+
+    .vl-innertext {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #f1f1f1;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        padding: 8px 10px;
+    }
+
+    /* hide some text on medium and large screens */
+
+    .hide-md-lg {
+        display: none;
+    }
+
+
+
+/* --------------------------- */
+
+/* fables-css */
+
+#storyList{
+
+} 
+
+#characterList{
+
+}
+
+#createLink{
+
+}
+
+/* createFables-css */
+
+#createNewForms {
+    margin-left: 50px;
+    outline-style: groove;
+    outline-color: #111;
+    padding: 10px;
+}
+.switch{
+
+}
+#storyForm{
+
+}
+
+#characterForm{
+
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+} */
+
+
+/* devPage-css */
+
+#header
+
+header{
+    font-style: underline;
+}
+
+h3 {
+    font-weight: bolder;
+    z-index: 0;
+    background-color: aliceblue;
+    width: 300px;
+    border-radius: 1.25rem;
+    padding-top: 15px;
+    padding-left: 10px;
+    height: 260px;
+    margin-top: 0px;
+}
+.devPic {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    margin-left: -227px;
+    margin-top: 45px;
+    margin-right: 105px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    border-radius: 1.25rem;
+    background-color: grey;
+}
+
+#rowDev {
+    background-color: #79abd2;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    margin-top: 10px;
+    border-radius: 1.25rem;
+    height: 315px;
+}
+
+#aboutProjectDev{
+
+}
+.info-text {
+    background-color: aliceblue;
+    font-size: 22px;
+    padding-top: 10px;
+    border-radius: 1.25rem;
+    width: auto;
+    height: 250px;
+}
+
+
+/* _______________________ */
+    /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+
+    @media screen and (max-width: 650px) {
+        .col {
+            width: 100%;
+            margin-top: 0;
+        }
+        /* hide the vertical line */
+        .vl {
+            display: none;
+        }
+        /* show the hidden text on small screens */
+        .hide-md-lg {
+            display: block;
+            text-align: center;
+        }
+    }
