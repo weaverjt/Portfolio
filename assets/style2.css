@@ -63,15 +63,19 @@ body {
   }
   /* END CORE CSS */
   /* Demo styling */
+ 
   body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     margin: 70px;
     background-image: url(Relax.JPG);
-    background-size: 100%;
+    background-size: 125%;
     background-repeat: no-repeat;
     background-position: center;
     width: fit-content;
+    box-shadow: 20px 20px 20px 2000px rgba(83, 166, 232, 0.3);
+    border: 2px black;
+    border-style: groove;
 }
   h1 {
     font-size: 20px;
