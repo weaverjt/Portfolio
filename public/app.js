@@ -1,3 +1,5 @@
+/* 3D button */
+
 $('#flipto').on("click", function(event) {
     event.preventDefault();
     
